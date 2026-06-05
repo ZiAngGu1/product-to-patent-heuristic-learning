@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Patent-lawless eval-loop training curve</title>
+  <desc id="desc">Overall score, critical-target recall, and target recall across five patent-lawless heuristic-learning iterations.</desc>
+  <rect width="960" height="500" fill="#fffdf8"/>
+  <rect x="70" y="58" width="820" height="328" fill="#ffffff" stroke="#252525" stroke-width="1.2"/>
+  <text x="70" y="34" font-family="Segoe UI, Noto Sans SC, Arial, sans-serif" font-size="24" font-weight="750" fill="#141414">Patent-lawless eval-loop training curve</text>
+
+  <g font-family="Segoe UI, Noto Sans SC, Arial, sans-serif" font-size="15" fill="#5f6368">
+    <line x1="70" y1="386" x2="890" y2="386" stroke="#252525" stroke-width="1.1"/>
+    <line x1="70" y1="320" x2="890" y2="320" stroke="#ded8cd" stroke-width="1"/>
+    <line x1="70" y1="255" x2="890" y2="255" stroke="#ded8cd" stroke-width="1"/>
+    <line x1="70" y1="189" x2="890" y2="189" stroke="#ded8cd" stroke-width="1"/>
+    <line x1="70" y1="124" x2="890" y2="124" stroke="#ded8cd" stroke-width="1"/>
+    <line x1="70" y1="58" x2="890" y2="58" stroke="#ded8cd" stroke-width="1"/>
+    <text x="35" y="391">0%</text>
+    <text x="27" y="325">20%</text>
+    <text x="27" y="260">40%</text>
+    <text x="27" y="194">60%</text>
+    <text x="27" y="129">80%</text>
+    <text x="18" y="63">100%</text>
+  </g>
+
+  <g font-family="Segoe UI, Noto Sans SC, Arial, sans-serif" font-size="15" fill="#141414">
+    <text x="65" y="412">iter-001</text>
+    <text x="270" y="412">iter-002</text>
+    <text x="475" y="412">iter-003</text>
+    <text x="680" y="412">iter-004</text>
+    <text x="830" y="412">iter-005</text>
+  </g>
+
+  <polyline points="84,151.8 289,124.3 494,112.9 699,103.0 876,277.4" fill="none" stroke="#255f8e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="84,177.6 289,147.8 494,118.0 699,88.2 876,118.0" fill="none" stroke="#1d6c4f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="84,222.0 289,175.0 494,104.8 699,104.8 876,151.8" fill="none" stroke="#9b3f37" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#255f8e" stroke="#ffffff" stroke-width="2.5">
+    <circle cx="84" cy="151.8" r="6.5"/><circle cx="289" cy="124.3" r="6.5"/><circle cx="494" cy="112.9" r="6.5"/><circle cx="699" cy="103.0" r="6.5"/><circle cx="876" cy="277.4" r="6.5"/>
+  </g>
+  <g fill="#1d6c4f" stroke="#ffffff" stroke-width="2.5">
+    <circle cx="84" cy="177.6" r="6.5"/><circle cx="289" cy="147.8" r="6.5"/><circle cx="494" cy="118.0" r="6.5"/><circle cx="699" cy="88.2" r="6.5"/><circle cx="876" cy="118.0" r="6.5"/>
+  </g>
+  <g fill="#9b3f37" stroke="#ffffff" stroke-width="2.5">
+    <circle cx="84" cy="222.0" r="6.5"/><circle cx="289" cy="175.0" r="6.5"/><circle cx="494" cy="104.8" r="6.5"/><circle cx="699" cy="104.8" r="6.5"/><circle cx="876" cy="151.8" r="6.5"/>
+  </g>
+
+  <g font-family="Segoe UI, Noto Sans SC, Arial, sans-serif" font-size="15">
+    <rect x="70" y="496" width="15" height="15" fill="#255f8e"/><text x="96" y="509" fill="#141414">overall score</text>
+    <rect x="232" y="496" width="15" height="15" fill="#1d6c4f"/><text x="258" y="509" fill="#141414">critical-target recall</text>
+    <rect x="432" y="496" width="15" height="15" fill="#9b3f37"/><text x="458" y="509" fill="#141414">target recall</text>
+  </g>
+
+  <g font-family="Segoe UI, Noto Sans SC, Arial, sans-serif">
+    <line x1="699" y1="58" x2="699" y2="386" stroke="#1d6c4f" stroke-width="1.6" stroke-dasharray="7 6"/>
+    <line x1="876" y1="58" x2="876" y2="386" stroke="#9b3f37" stroke-width="1.6" stroke-dasharray="7 6"/>
+    <rect x="70" y="430" width="820" height="42" rx="6" fill="#ffffff" stroke="#ded8cd" stroke-width="1"/>
+    <text x="88" y="456" font-size="16" font-weight="750" fill="#1d6c4f">iter-004: best checkpoint, critical recall 90.9%</text>
+    <text x="520" y="456" font-size="16" font-weight="750" fill="#9b3f37">iter-005: rejected, public score 33.1%</text>
+  </g>
+</svg>

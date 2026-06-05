@@ -1,10 +1,25 @@
 .env
+.env.*
+!.env.example
+
+# Private benchmark data and local run outputs.
+dataset/
+datasets/
+tmp/
+artifacts/
 results/
-harvey-labs/
+local-archive/
+*-local-archive-*/
+
+# External benchmark checkouts should stay local.
+runner/
+
+# Python / Node caches.
 .venv/
+node_modules/
 __pycache__/
 *.pyc
 *.log
+
 .DS_Store
 Thumbs.db
-

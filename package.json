@@ -1,0 +1,13 @@
+{
+  "name": "product-to-patent-heuristic-learning",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "baseline:codex": "node scripts/run-cli-baseline-noskill.mjs --runner codex",
+    "baseline:claude": "node scripts/run-cli-baseline-noskill.mjs --runner claude",
+    "loop:patents": "node scripts/patent-eval-loop.mjs",
+    "score:patents": "node scripts/score-patent-eval.mjs",
+    "check:scripts": "node --check scripts/run-cli-baseline-noskill.mjs && node --check scripts/patent-eval-loop.mjs && node --check scripts/score-patent-eval.mjs"
+  }
+}
